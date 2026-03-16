@@ -1,24 +1,24 @@
 class Obulx < Formula
   desc "CLI for making paid API calls through the Obul x402 proxy"
   homepage "https://github.com/polymerdao/obul-client-sdk-ts"
-  version "0.2.9"
+  version "0.2.12"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/polymerdao/obul-client-sdk-ts/releases/download/v0.2.9/obulx-darwin-arm64.tar.gz"
-      sha256 "1101725a6653269d4fd63ea2538c357f1aa68ac7683db008a2a39720006b78e4"
+      url "https://github.com/polymerdao/obul-client-sdk-ts/releases/download/v0.2.12/obulx-darwin-arm64.tar.gz"
+      sha256 "fef205b9a80632378a6a19dcaa102d99a77c35496a8692f14854c437553d80f9"
     end
     on_intel do
-      url "https://github.com/polymerdao/obul-client-sdk-ts/releases/download/v0.2.9/obulx-darwin-x64.tar.gz"
-      sha256 "1889678cdf8aba15d434817b8f8388008e38956d36f434c30af23b181f60ae83"
+      url "https://github.com/polymerdao/obul-client-sdk-ts/releases/download/v0.2.12/obulx-darwin-x64.tar.gz"
+      sha256 "6a9995481b1e3f0845a705b9d581ab0d85a18b6283a6db7335bb10f16f9a2a68"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/polymerdao/obul-client-sdk-ts/releases/download/v0.2.9/obulx-linux-x64.tar.gz"
-      sha256 "4ae5f61073a1ea8b73990fe3ab9c83aee333e51e276780ece63f8186883ee07a"
+      url "https://github.com/polymerdao/obul-client-sdk-ts/releases/download/v0.2.12/obulx-linux-x64.tar.gz"
+      sha256 "ff8cf5c2622826019882365a77da3e279d5a4122818ea7d11331ee3454a56c67"
     end
   end
 
